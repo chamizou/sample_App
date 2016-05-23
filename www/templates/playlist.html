@@ -1,0 +1,21 @@
+<ion-view view-title="Playlist - {{title}}">
+  <ion-content>
+    <h1>Playlist</h1>
+    <div>
+      {{title}}
+    </div>
+
+    <!--<li ng-repeat= "result in results">{{result.artistName}}  {{result.collectionName}}</li>-->
+    <div class="list">
+
+      <div class="item item-thumbnail-left" ng-repeat= "result in results">
+        <img src={{result.artworkUrl60}}>
+        <h2>{{result.artistName}}</h2>
+        <p>{{result.collectionName}}</p>
+        <i class="ion-headphone" ng-click="showAlert(result)"></i>
+      </div>
+
+    </div>
+
+  </ion-content>
+</ion-view>
