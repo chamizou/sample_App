@@ -50,7 +50,8 @@ angular.module('starter.controllers', [])
     { title: 'Rap', id: 5 },
     { title: '演歌', id: 6 },
     { title: 'HipHop', id:7},
-    { title: 'JPop', id:8}
+    { title: 'JPop', id:8},
+    { title: 'KPop', id:9}
   ];
 })
 
