@@ -60,7 +60,6 @@ angular.module('starter.controllers', [])
     var play = JSON.parse($stateParams.playlist);
     $scope.title = play.title
 
-
     $http({
     method : 'GET',
     url : 'https://itunes.apple.com/search?term='+ $scope.title +'&limit=10&country=JP&entity=song'
